@@ -1,0 +1,24 @@
+def stringdef(hello):
+    #we make Python comments using the hashtag button
+    
+    '''
+    Multi-line comments can be made using three tick marks above and below a comment
+    '''
+    
+    #reference the PEP guidelines for Python best practices, such as\
+    #escaping new lines with a '\' character and always indenting new\
+    #lines with 4 space. NO TABS ALLOWED OR I KILL A PUPPY
+    
+    #Python is a strongly typed language, no variable declartions needed!
+    stringaMajig = 'Hello, I am a string and you killed by father'
+    #print (stringaMajig+ hello)
+    
+    #why did the above print statement fail? Because we passed in an int to our stringdef\
+    #method, and tried to append it to a string. Python doesn't allow this sort of implicit\
+    #conversion at run time. Instead, we need to forcibly cast our int to be a string 
+    
+    s = str(hello)
+    print (stringaMajig + " " +s + " the lulz")   
+#it's a good idea to make your method calls at the very end of your Python script, to avoid\
+#mixing up local/global scoped variables and making your code more intuitive. 
+stringdef(4)
