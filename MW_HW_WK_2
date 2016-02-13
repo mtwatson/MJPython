@@ -1,0 +1,69 @@
+#3.1
+years_list = [1990, 1991, 1992, 1993, 1994, 1995]
+
+#3.2
+third_birthday = years_list[3]
+print(third_birthday)
+
+#3.3
+oldest_year = years_list[5]
+print(oldest_year)
+
+#3.4
+things =['mozzarella', 'cinderella', 'salmonella']
+
+#3.5
+bitchface = things[1].title()
+print(bitchface)
+
+#3.6
+thy_lord_and_savior = things[0].upper()
+print(thy_lord_and_savior)
+
+#3.7 Instructions unclear. Specific disease unspecified.
+disease = things.remove('cinderella')
+
+#3.8
+surprise = ['Groucho','Chico','Harpo']
+
+#3.9
+lower = surprise[2].lower()
+reverse = lower[::-1]
+the_dark_lord=reverse.upper()
+print(the_dark_lord)
+
+#3.10
+d2f = {'dog':'chien', 'cat':'chat', 'walrus':'morse'}
+
+#3.11
+walrus = d2f['walrus']
+print(walrus)
+
+#3.12
+f2d = {v: k for k, v in d2f.items()}
+print(f2d)
+
+#3.13
+lionel = f2d['chien']
+print(lionel)
+
+#3.14
+print(f2d.values())
+
+#3.15
+cat_names=['Henri','Grumpy','Lucy']
+animals={'cats':cat_names, 'octopi':{}, 'emus':{}}
+life = {'animals':animals, 'plants':{}, 'others':{}}
+
+#3.16
+print(life.keys())
+
+#3.17
+print(life['animals'].keys())
+
+#3.18
+print(life['animals']['cats'])
+
+
+
+ 
